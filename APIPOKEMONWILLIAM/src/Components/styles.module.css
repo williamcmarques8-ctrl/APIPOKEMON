@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    
+}
+.div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+.div2 {
+    height: 96vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+.buttondiv1, .buttondiv2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+
+.coisasdiv {
+    display: flex;
+    background-color: #efefef;
+    flex-direction: column;
+    align-items: center;
+    width: 24rem;
+    border: 4px solid ;
+    border-radius: 8px;
+    margin-top: 15px;
+    
+}
+
+.coisasdivimgh2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+
+.coisasdivh2 {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+    background-color:#f2f2f2;
+    margin: 0;
+    
+}
+
+.coisasdivh21 {
+    background-color: #f2f2f2;
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.coisasdivh21 h2 {
+    color: #313131;
+    margin: 8px 0;
+    font-size: 1.3rem;
+    
+}
+
+.coisasdivh22 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.coisasdivh22 h2 {
+    margin: 8px 0;
+    font-size: 1.4rem;
+    text-transform: capitalize;
+    
+}
+
+
+.coisasdiv img {
+    background-color: white;
+    width: auto;
+    height: 100%;
+    display: block;
+    border-bottom: 4px solid #313131;
+}
+
+
+.coisasdivdivs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 24rem;
+    
+}
+.coisasdivdivs div{
+    display: flex;
+    border: #000000 1px solid;
+    align-items: center;
+    justify-content: center;
+}
+
+.coisasdivtype{
+    display: flex;
+    flex-direction: column;
+    height: 4.5rem;
+}
+
+.coisasdivtype div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5rem;
+    height: 1.8rem;
+    text-transform: capitalize;
+    border-radius: 0.5rem;
+    border: none;
+}
+
+.coisasdivtittle{
+    height: 2rem;
+}
